@@ -2,6 +2,28 @@
 
 A Go library for converting images to ANSI art. Renders images as colored terminal text using ASCII characters, Unicode block characters, or custom character sets. Supports static images and animated GIFs.
 
+## Demos
+
+### Unicode Half Blocks (default)
+
+<!-- TODO: Terminal screenshot showing a photo rendered with default Unicode half-block settings -->
+![Unicode Half Blocks](https://placeholder.com/unicode-half.png)
+
+### ASCII Characters
+
+<!-- TODO: Terminal screenshot showing the same image rendered with ASCII characters -->
+![ASCII Mode](https://placeholder.com/ascii.png)
+
+### Limited Palette with Dithering
+
+<!-- TODO: Terminal screenshot showing an image rendered with a limited color palette and dithering enabled -->
+![Palette + Dithering](https://placeholder.com/palette-dither.png)
+
+### Alpha Transparency
+
+<!-- TODO: Terminal screenshot showing a transparent PNG rendered with partial-block alpha edges -->
+![Alpha Transparency](https://placeholder.com/alpha.png)
+
 ## Install
 
 ```
